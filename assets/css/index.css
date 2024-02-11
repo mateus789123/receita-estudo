@@ -1,0 +1,135 @@
+@font-face {
+    font-family: young-serif;
+    src: url("assets\fonts\young-serif\YoungSerif-Regular.ttf");
+}
+
+html {
+    h1, h2, h3, p, ul, li{
+        margin: 0;
+    }
+}
+
+body{
+    padding: 40px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: young-serif ;
+}
+
+.imagem-container{
+    text-align: center;
+}
+
+.imagem{
+    border-radius: 12px;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.textinho{
+    color: #5F564D;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+
+.bloco{
+    padding: 28px;
+    background-color: #FFF7FB ;
+    margin-bottom: 32px;
+}
+
+.preparacao{
+    color: #7A284E;
+    margin-bottom: 16px;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.lista li{
+    margin-bottom: 8px;   
+    color: #5F564D;
+}
+
+.lista li::before{
+    content: '•';
+    color: #7A284E;
+    margin-right: 10px;
+}
+
+h2{
+    color: #854632;
+}
+
+.estilo{
+    margin-bottom: 24px;
+}
+
+.ingredientes{
+    margin-bottom: 32px;
+}
+
+hr{
+    margin-bottom: 32px;
+}
+
+.lista-instructions {
+    list-style-type: none;
+    margin-bottom: 8px;   
+    color: #5F564D;
+}
+
+.lista-numero{
+    color: #7A284E;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.instructions-titulo{
+    margin-bottom: 24px;
+}
+
+.lista-instructions li{
+    margin-top: 8px;
+}
+
+.instructions{
+    margin-bottom: 32px;
+}
+
+.Nutrition-texto{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+
+th, td{
+    
+    padding: 8px;
+    text-align: left;
+    font-size: 16px;
+}
+
+tr{
+    border-bottom: 1px solid ;
+    border-color: #E3DDD7;
+}
+
+
+.tabela-cores{
+    color: #854632;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
